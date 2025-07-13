@@ -1,0 +1,58 @@
+@use "components";
+@use "fonts";
+
+@import "bootstrap/scss/functions";
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+
+$accordion-border-width: 0;
+$accordion-border-radius: 0;
+$accordion-button-active-color: #005bfe;
+$accordion-button-active-bg: #fff;
+$accordion-button-focus-box-shadow: none;
+$accordion-border-radius: 6px;
+$accordion-button-padding-x: 0;
+$accordion-button-padding-y: 1.25rem;
+$accordion-body-padding-x: 0;
+
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/transitions";
+
+$form-select-bg: rgba(0, 0, 0, 0.05);
+$form-select-border-width: 0;
+$form-select-padding-y: 10px;
+$form-select-focus-border-color: #005bfe;
+$form-select-focus-box-shadow: none;
+
+@import "bootstrap/scss/forms";
+
+h2 {
+  margin-bottom: 0;
+}
+
+.accordion {
+  margin-top: 56px;
+
+  &-item {
+    padding: 0 24px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    box-shadow: 0px 4px 20px 0px #0000000d;
+  }
+
+  &-button {
+    font-weight: 700;
+  }
+}
+
+body {
+  font-size: 14px;
+  font-family: "Circe", sans-serif;
+  background: #f6f7f9;
+}
