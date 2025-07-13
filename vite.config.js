@@ -1,7 +1,4 @@
 export default {
-  build: {
-    outDir: "../dist",
-  },
   css: {
     preprocessorOptions: {
       scss: {
